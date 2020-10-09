@@ -16,11 +16,7 @@ npm install
 
 ## Running the API server
 
-You'll have to configure environment variables for mongoDB server and JWT secret key inside
-
-```sh
-./src/config.js
-```
+You'll have to configure environment variables for mongoDB server and JWT secret key inside `./src/config.js`
 
 After that you can start your server.
 
@@ -58,7 +54,7 @@ body: {
 }
 ```
 
-* Access a protected route: GET /
+* Access a protected route: `GET /`
 
 ```js
 headers: {
